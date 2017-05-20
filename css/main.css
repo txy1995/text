@@ -1,0 +1,6 @@
+/*清除浮动*/
+.clearFix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
